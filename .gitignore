@@ -1,0 +1,43 @@
+###########################
+# .gitignore
+
+.AppleDouble/
+.DS_Store
+.idea/
+
+###########################
+node_modules/
+# package.json
+package-lock.json
+
+###########################
+# .vagrant/
+# gulpfile.js
+# bower.json
+# bower_components/
+
+# db.sqlite3
+
+###########################
+### task ###
+# *.sh
+task/*.sh
+
+# task/
+task/memo.md
+# task/log/diary.md
+
+# *.log
+
+###########################
+### project ###
+private/
+etc/private/
+
+git/
+sh/
+py/
+
+
+
+
