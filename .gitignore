@@ -26,6 +26,7 @@ task/*.sh
 # task/
 # task/memo.md
 # task/log/diary.md
+task/link_sh
 
 # *.log
 
