@@ -24,7 +24,7 @@ package-lock.json
 task/*.sh
 
 # task/
-task/memo.md
+# task/memo.md
 # task/log/diary.md
 
 # *.log
@@ -35,7 +35,8 @@ private/
 etc/private/
 
 git/
-sh/
+sh/test
+sh/modules
 py/
 
 
