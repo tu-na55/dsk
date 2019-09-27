@@ -9,9 +9,6 @@ kohkimakimoto.hatenablog.com/entry/2016/03/14/044924
 qiita.com/piroor/items/77233173707a0baa6360
 
 
-<!-- spaceに注意。 -->
-count=0
-
 ##### public
 + [public]
   - test/
@@ -41,7 +38,7 @@ count=0
 4. reflection: cd task/; bash ignored_(...).sh;
 
 ___
-###### option 
+###### option
 未定義の変数を使用するとそこでスクリプトを終了する (set -u)
 set -u
 基本的に次のset -eも含めてset -euとしておくのがよさそう。
