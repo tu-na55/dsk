@@ -1,3 +1,49 @@
+
+TOC
+目次、sheet1、sheet2、sheet3
+```py
+Private Sub CommandButton1_Click()
+
+    Dim i       As Integer
+    Dim iRow    As Integer
+    Dim sName   As String
+
+    '目次シートの設定内容をクリア
+    Range("A9:BC65535").ClearContents
+    Range("A9:BC65535").Hyperlinks.Delete
+
+    '目次開始行数（本例は8行目から目次が作られる）
+    iRow = 8
+    '目次を作成する列数（本例は3列目（C列）に目次が作られる）
+    iColumn = 3
+
+    'ワークシートのサイズ分、下記処理を繰り返す
+    For i = 1 To Worksheets.Count Step 1
+        '非表示となっているワークシートは目次作成対象外とする
+        If Worksheets(i).Visible = xlSheetVisible Then
+            'ワークシート名を格納
+            sName = "'" & Worksheets(i).Name & "'"
+            '目次シートの対象セルにハイパーリンクを設定（目次作成対象ワークシートのA1セルへのリンク）
+            Call Hyperlinks.Add(Anchor:=Cells(iRow, iColumn), Address:="", SubAddress:=sName & "!A1", ScreenTip:=Worksheets(i).Name)
+            '目次シートの対象セルにシート名を設定
+            Cells(iRow, iColumn) = Worksheets(i).Name
+
+           'リンクの文字の大きさ、フォントを設定
+            Cells(iRow, iColumn).Font.Size = 13
+            Cells(iRow, iColumn).Font.Name = "ＭＳ ゴシック"
+            Cells(iRow, iColumn).Font.Bold = True
+
+            '次の行へ
+            iRow = iRow + 1
+        End If
+    Next i
+
+End Sub
+
+```
+
+
+
 ```py
 # すべてカウント
 counta(exist_cell)+countblank(null_cell)
