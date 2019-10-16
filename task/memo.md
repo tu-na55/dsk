@@ -35,6 +35,10 @@ qiita.com/y_kawase/items/8f1b5a303400a09c4923
 
 + nuxtJS
 www.ritolab.com/entry/192
+
++ barba v2, google gtm, ga
+liginc.co.jp/476913
+
 ___
 PHP
 + SPA
@@ -96,9 +100,6 @@ note.mu/satopen/n/n3006043cb383
 
 + wp最適化
 yokonoji.work/page-speed-guide
-
-
-
 
 
 ##### public
