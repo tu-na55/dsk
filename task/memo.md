@@ -57,7 +57,7 @@ css
 gridbyexample.com/
 
 + form
-https://www.nxworld.net/tips/15-useful-css-snippets-in-form-style.html
+www.nxworld.net/tips/15-useful-css-snippets-in-form-style.html
 
 ___
 
