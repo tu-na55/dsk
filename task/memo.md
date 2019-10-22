@@ -1,11 +1,13 @@
 
++ giphy
 
+___
 
 + インフラ、 matrixの人
 qiita.com/sion_cojp/items/
 
 + SE
-www.casleyconsulting.co.jp/blog/engineer/frontend/
+casleyconsulting.co.jp/blog/engineer/frontend/
 
 + python
 qiita.com/shunyooo/items/69c3523a8c500b37f33f
@@ -45,7 +47,7 @@ PHP
 qiita.com/SoraKumo/items/ded7cec28b3b8792bb88
 
 + larabel
-www.ritolab.com/entry/40
+ritolab.com/entry/40
 
 + wp
 websae.net/category/wordpress/
@@ -61,11 +63,11 @@ css
 gridbyexample.com/
 
 + form
-www.nxworld.net/tips/15-useful-css-snippets-in-form-style.html
+nxworld.net/tips/15-useful-css-snippets-in-form-style.html
 
 ___
 
-+ EC
++ EC: suprema
 suprema.select-themes.com/
 
 + simple, gradient
@@ -75,16 +77,21 @@ laurenwickware.com
 
 + mdc風
 glitter-style.jp/labo/web-resource/master-the-pjax/
+
++ modern-design-styles
+photoshopvip.net/87064
+
 ___
 blog
 + adobe
 blogs.adobe.com/japan/
+photoshopvip.net/
 
 + wireframe
 blogs.adobe.com/japan/web-start-illustrator-web-design-03-wireframe/
 
 + ios
-https://note.mu/mhtcode_design/n/na5a17c4f423b
+note.mu/mhtcode_design/n/na5a17c4f423b
 
 + temp
 sokutaku.jp/column/2016/02/wireframe-2.php
