@@ -1,6 +1,13 @@
 
 + giphy
 
++ wp-pluigin
+WooCommerce
+
++ スコットケラムメソッド
+
+
+
 ___
 
 + インフラ、 matrixの人
@@ -65,6 +72,9 @@ gridbyexample.com/
 + form
 nxworld.net/tips/15-useful-css-snippets-in-form-style.html
 
++ sa
+sassmeister.com
+
 ___
 
 + EC: suprema
@@ -86,6 +96,9 @@ blog
 + adobe
 blogs.adobe.com/japan/
 photoshopvip.net/
+
+dtp
+fontxdesign.net/category/design/
 
 + wireframe
 blogs.adobe.com/japan/web-start-illustrator-web-design-03-wireframe/
