@@ -43,7 +43,7 @@ github.com/teradonburi/learnReactJS
 qiita.com/y_kawase/items/8f1b5a303400a09c4923
 
 + nuxtJS
-www.ritolab.com/entry/192
+ritolab.com/entry/192
 
 + barba v2, google gtm, ga
 liginc.co.jp/476913
