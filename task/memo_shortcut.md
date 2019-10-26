@@ -17,3 +17,7 @@ command + option + i
 command + shift + p
 => "full"
 
+##### adobe ps
++ m選択, v移動
++ shift + tab: ツールバー表示／非表示
+
