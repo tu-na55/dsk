@@ -97,8 +97,9 @@ seoworld.jp/keyword-planner/
 ___
 blog
 + adobe
-blogs.adobe.com/japan/
-photoshopvip.net/
+blogs.adobe.com/japan/  
+photoshopvip.net/  
+dtptransit.design/
 
 dtp
 fontxdesign.net/category/design/
