@@ -1,11 +1,17 @@
 
+
+JS-tools
++ リアルタイムで共有できるお絵かきボード
++ Mark-Down editor
++ Excelもどき
++ Google Mapもどき
++ KPIダッシュボード
+
+
+___
 + giphy
-
-+ wp-pluigin
-WooCommerce
-
 + スコットケラムメソッド
-
++ RSS-parser
 
 
 ___
@@ -27,7 +33,8 @@ kohkimakimoto.hatenablog.com/entry/2016/03/14/044924
 
 
 ___
-
++ C
+begincodingnow.com/blog-posts-category/
 
 ___
 + lesson
@@ -80,6 +87,10 @@ ___
 + EC: suprema
 suprema.select-themes.com/
 
++ EC, wp-pluigin
+WooCommerce
+
+
 + simple, gradient
 laurenwickware.com
 
@@ -104,6 +115,8 @@ dtptransit.design/
 dtp
 fontxdesign.net/category/design/
 
++ あいわプリントのガイドライン
+
 + wireframe
 blogs.adobe.com/japan/web-start-illustrator-web-design-03-wireframe/
 
@@ -124,6 +137,7 @@ note.mu/satopen/n/n3006043cb383
 
 + wp最適化
 yokonoji.work/page-speed-guide
+
 
 
 ##### public
@@ -155,43 +169,6 @@ yokonoji.work/page-speed-guide
 4. reflection: cd task/; bash ignored_(...).sh;
 
 ___
-###### option
-未定義の変数を使用するとそこでスクリプトを終了する (set -u)
-set -u
-基本的に次のset -eも含めてset -euとしておくのがよさそう。
-
-コマンドがエラーだった場合そこでスクリプトを終了する (set -e)
-set -e
-しておくと、エラー(戻り値0以外を戻すコマンド実行)があると即時終了する
-
-set -eの状態でエラー後も処理を続ける (&&:)
-安全のため基本的にset -eをしておいていいが、これはスクリプト内のすべてのコマンド実行の戻り値に対して効果をもつので、困ることも多い。 たとえばコマンド実行の結果をみてメッセージを出したい場合、以下のように書いたりする。
-
-set -e
-
-/path/to/yourcommand
-if [ $? -eq 0 ]; then
-    echo "yourcommand OK"
-else
-    echo "yourcommand NG"
-fi
-しかし/path/to/yourcommandがエラーの時は即時終了してしまうので[ $? -eq 0 ];は評価されず、結果yourcommand NGは絶対に表示されない。 このような場合はコマンドに&&:を続けておくとうまく動作する。(動作原理は下記参考のリンク先参照)
-
-set -e
-
-/path/to/yourcommand &&:
-if [ $? -eq 0 ]; then
-    echo "yourcommand OK"
-else
-    echo "yourcommand NG"
-fi
-
-パイプで繋いだコマンドがエラーのとき終了させる
-パイプでつなぐとset -eをしててもエラー時に終了しないので以下のようにかく。
-
-foo | indent; status=${PIPESTATUS[0]}; [[ ! $status -eq 0 ]] && exit $status
-
-
 
 
 
