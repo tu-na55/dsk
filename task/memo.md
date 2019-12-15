@@ -1,20 +1,12 @@
-
-
-JS-tools
-+ リアルタイムで共有できるお絵かきボード
-+ Mark-Down editor
-+ Excelもどき
-+ Google Mapもどき
-+ KPIダッシュボード
-
-
 ___
 + giphy
 + スコットケラムメソッド
 + RSS-parser
 
-
 ___
+
++ SOLID
+postd.cc/solid-principles-every-developer-should-know/
 
 + インフラ、 matrixの人
 qiita.com/sion_cojp/items/
@@ -23,7 +15,6 @@ qiita.com/sion_cojp/items/
 casleyconsulting.co.jp/blog/engineer/frontend/
 
 + python
-qiita.com/shunyooo/items/69c3523a8c500b37f33f
 
 + シェルスクリプトはそう書いちゃ駄目
 qiita.com/piroor/items/77233173707a0baa6360
@@ -31,10 +22,22 @@ qiita.com/piroor/items/77233173707a0baa6360
 + bash cheat-sheet
 kohkimakimoto.hatenablog.com/entry/2016/03/14/044924
 
++ vba
+qiita.com/opengl-8080/items/5bd8ae7fe95f5c31dfc3
 
 ___
 + C
 begincodingnow.com/blog-posts-category/
+
++ cppクリーンなコード
+https://qiita.com/elipmoc101/items/01003c82dbd2e464a071
+
+___
++ py
+Automate the Boring Stuff with Python
+
+qiita.com/shunyooo/items/69c3523a8c500b37f33f
+
 
 ___
 + lesson
@@ -43,6 +46,16 @@ tutorialspoint.com/tutorialslibrary.htm
 + 3年ぶりのコーディングで参考にしたサイト
 aoicotori.hatenablog.com/entry/coding2019
 ___
+
+JS-tools
++ リアルタイムで共有できるお絵かきボード
++ Mark-Down editor
++ Excelもどき
++ Google Mapもどき
++ KPIダッシュボード
+
+___
+
 + react
 github.com/teradonburi/learnReactJS
 
